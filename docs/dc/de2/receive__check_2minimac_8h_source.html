@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Arduino_CAN: receive_check/minimac.h 소스 파일</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Arduino_CAN
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','검색',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('dc/de2/receive__check_2minimac_8h_source.html','../../'); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">minimac.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dc/de2/receive__check_2minimac_8h.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef MINIMAC_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define MINIMAC_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;EEPROM.h&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;MD5.h&gt;</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">//=== 설정 상수 ===</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../dc/de2/receive__check_2minimac_8h.html#ae7002952c635d427c9002f400ba9b06d">   20</a></span><span class="preprocessor">#define MINIMAC_KEY_LEN 16</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../dc/de2/receive__check_2minimac_8h.html#a964f0a823ecc9b1e36578a237aa7590a">   25</a></span><span class="preprocessor">#define MINIMAC_TAG_LEN 4</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../dc/de2/receive__check_2minimac_8h.html#a6230efe70d882820ab08d1be22e61ffd">   30</a></span><span class="preprocessor">#define MINIMAC_HIST_LEN 5</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../dc/de2/receive__check_2minimac_8h.html#aabb80f3e18eefc592fe53e183d8d1897">   35</a></span><span class="preprocessor">#define MINIMAC_MAX_DATA 8</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="};">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d6/d0b/structMiniMacHist.html">   44</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d6/d0b/structMiniMacHist.html#a79d27ac103c2342af5e679577ea387e0">   45</a></span>  uint8_t <a class="code hl_variable" href="../../d6/d0b/structMiniMacHist.html#a79d27ac103c2342af5e679577ea387e0">len</a>;                    </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d6/d0b/structMiniMacHist.html#a5bac1f2167566fc451536b390d75eb5f">   46</a></span>  uint8_t <a class="code hl_variable" href="../../d6/d0b/structMiniMacHist.html#a5bac1f2167566fc451536b390d75eb5f">data</a>[<a class="code hl_define" href="../../d5/d5b/send_2minimac_8h.html#aabb80f3e18eefc592fe53e183d8d1897">MINIMAC_MAX_DATA</a>]; </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>} <a class="code hl_struct" href="../../d6/d0b/structMiniMacHist.html">MiniMacHist</a>;</div>
+</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/de2/receive__check_2minimac_8h.html#aee55a05b2589434fc41a17d411f45968">minimac_init</a>(uint16_t can_id, <span class="keyword">const</span> uint8_t *key);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>uint8_t <a class="code hl_function" href="../../dc/de2/receive__check_2minimac_8h.html#a1400cc0fc1728efea60fe379ef9f5542">minimac_sign</a>(uint8_t *data, uint8_t payload_len);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/de2/receive__check_2minimac_8h.html#a8386b4579a501e2e00bf92cbf83ef2e2">minimac_verify</a>(<span class="keyword">const</span> uint8_t *data, uint8_t payload_len,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                    <span class="keyword">const</span> uint8_t *tag);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif </span><span class="comment">// MINIMAC_H</span></div>
+<div class="ttc" id="areceive__check_2minimac_8h_html_a1400cc0fc1728efea60fe379ef9f5542"><div class="ttname"><a href="../../dc/de2/receive__check_2minimac_8h.html#a1400cc0fc1728efea60fe379ef9f5542">minimac_sign</a></div><div class="ttdeci">uint8_t minimac_sign(uint8_t *data, uint8_t payload_len)</div><div class="ttdoc">송신 전 페이로드에 Mini-MAC 태그 생성 및 붙이기</div><div class="ttdef"><b>Definition</b> <a href="../../dd/daa/receive__check_2minimac_8cpp_source.html#l00282">minimac.cpp:282</a></div></div>
+<div class="ttc" id="areceive__check_2minimac_8h_html_a8386b4579a501e2e00bf92cbf83ef2e2"><div class="ttname"><a href="../../dc/de2/receive__check_2minimac_8h.html#a8386b4579a501e2e00bf92cbf83ef2e2">minimac_verify</a></div><div class="ttdeci">bool minimac_verify(const uint8_t *data, uint8_t payload_len, const uint8_t *tag)</div><div class="ttdoc">수신 후 Mini-MAC 태그 검증 및 내부 상태 갱신</div><div class="ttdef"><b>Definition</b> <a href="../../dd/daa/receive__check_2minimac_8cpp_source.html#l00338">minimac.cpp:338</a></div></div>
+<div class="ttc" id="areceive__check_2minimac_8h_html_aee55a05b2589434fc41a17d411f45968"><div class="ttname"><a href="../../dc/de2/receive__check_2minimac_8h.html#aee55a05b2589434fc41a17d411f45968">minimac_init</a></div><div class="ttdeci">void minimac_init(uint16_t can_id, const uint8_t *key)</div><div class="ttdoc">Mini-MAC 프로토콜 초기화</div><div class="ttdef"><b>Definition</b> <a href="../../dd/daa/receive__check_2minimac_8cpp_source.html#l00241">minimac.cpp:241</a></div></div>
+<div class="ttc" id="asend_2minimac_8h_html_aabb80f3e18eefc592fe53e183d8d1897"><div class="ttname"><a href="../../d5/d5b/send_2minimac_8h.html#aabb80f3e18eefc592fe53e183d8d1897">MINIMAC_MAX_DATA</a></div><div class="ttdeci">#define MINIMAC_MAX_DATA</div><div class="ttdoc">CAN 데이터 필드 최대 길이 (8바이트)</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d5b/send_2minimac_8h_source.html#l00035">minimac.h:35</a></div></div>
+<div class="ttc" id="astructMiniMacHist_html"><div class="ttname"><a href="../../d6/d0b/structMiniMacHist.html">MiniMacHist</a></div><div class="ttdoc">과거 페이로드를 저장하기 위한 구조체</div><div class="ttdef"><b>Definition</b> <a href="#l00044">minimac.h:44</a></div></div>
+<div class="ttc" id="astructMiniMacHist_html_a5bac1f2167566fc451536b390d75eb5f"><div class="ttname"><a href="../../d6/d0b/structMiniMacHist.html#a5bac1f2167566fc451536b390d75eb5f">MiniMacHist::data</a></div><div class="ttdeci">uint8_t data[8]</div><div class="ttdef"><b>Definition</b> <a href="#l00046">minimac.h:46</a></div></div>
+<div class="ttc" id="astructMiniMacHist_html_a79d27ac103c2342af5e679577ea387e0"><div class="ttname"><a href="../../d6/d0b/structMiniMacHist.html#a79d27ac103c2342af5e679577ea387e0">MiniMacHist::len</a></div><div class="ttdeci">uint8_t len</div><div class="ttdef"><b>Definition</b> <a href="#l00045">minimac.h:45</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_8be5e62539a33b9d519ed1340f13ec3d.html">receive_check</a></li><li class="navelem"><a class="el" href="../../dc/de2/receive__check_2minimac_8h.html">minimac.h</a></li>
+    <li class="footer">다음에 의해 생성됨 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

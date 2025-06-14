@@ -1,0 +1,23 @@
+<map id="print_u64" name="print_u64">
+<area shape="rect" id="Node000001" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="455,108,538,136"/>
+<area shape="rect" id="Node000002" href="$de/d55/send_2minimac_8cpp.html#afa626819ccf2a02c16463d27c18dcd5d" title="Mini&#45;MAC용 HMAC&#45;MD5 다이제스트 계산" alt="" coords="282,5,407,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="469,99,440,73,406,48,383,36,385,31,409,44,443,69,472,95"/>
+<area shape="rect" id="Node000003" href="$dd/daa/receive__check_2minimac_8cpp.html#a5c686d7099e608200e066d8fc22cd01f" title="EEPROM에서 Mini&#45;MAC 상태 불러오기" alt="" coords="300,57,389,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="440,106,388,88,389,83,442,101"/>
+<area shape="rect" id="Node000004" href="$dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542" title="송신할 메시지에 Mini&#45;MAC 태그 생성 및 내부 상태 갱신" alt="" coords="116,107,228,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="440,124,229,123,229,118,440,119"/>
+<area shape="rect" id="Node000006" href="$dd/daa/receive__check_2minimac_8cpp.html#a8386b4579a501e2e00bf92cbf83ef2e2" title="수신된 메시지의 Mini&#45;MAC 태그 검증 및 상태 동기화" alt="" coords="111,211,234,238"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="476,149,446,177,408,200,365,215,319,224,234,230,234,225,318,219,363,210,406,195,443,173,472,145"/>
+<area shape="rect" id="Node000008" href="$dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="298,159,391,186"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="442,143,389,161,388,156,440,138"/>
+<area shape="rect" id="Node000005" href="$df/d91/send_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다." alt="" coords="9,107,59,134"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="101,123,59,123,59,118,101,118"/>
+<area shape="rect" id="Node000007" href="$d1/df3/receive__check_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="수신 루프 함수로, 도착한 CAN 메시지를 확인하고 Mini&#45;MAC 태그를 검증합니다." alt="" coords="9,211,59,238"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="95,227,59,227,59,222,95,222"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="283,157,220,137,221,132,284,152"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="284,193,221,213,220,208,283,188"/>
+<area shape="rect" id="Node000009" href="$dd/daa/receive__check_2minimac_8cpp.html#aee55a05b2589434fc41a17d411f45968" title="Mini&#45;MAC 초기화 및 EEPROM 동기화" alt="" coords="119,159,226,186"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="283,175,226,175,226,170,283,170"/>
+<area shape="rect" id="Node000010" href="$d1/df3/receive__check_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="수신기 시스템 초기화 함수로, 필요한 설정을 수행합니다." alt="" coords="5,159,63,186"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="103,175,63,175,63,170,103,170"/>
+</map>

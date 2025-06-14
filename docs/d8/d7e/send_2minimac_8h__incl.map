@@ -1,0 +1,9 @@
+<map id="send/minimac.h" name="send/minimac.h">
+<area shape="rect" id="Node000001" title="Mini&#45;MAC 프로토콜 구현용 헤더 파일" alt="" coords="94,5,219,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,89,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,36,81,74,78,70,135,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="112,81,200,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,34,159,65,154,65,154,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="225,81,288,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,31,228,70,225,74,173,36"/>
+</map>

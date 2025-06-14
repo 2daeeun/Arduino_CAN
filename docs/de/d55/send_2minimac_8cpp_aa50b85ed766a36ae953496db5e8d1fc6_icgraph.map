@@ -1,0 +1,13 @@
+<map id="debug_print_hex" name="debug_print_hex">
+<area shape="rect" id="Node000001" title="디버깅용: 바이트 배열을 16진수로 출력" alt="" coords="276,57,405,85"/>
+<area shape="rect" id="Node000002" href="$de/d55/send_2minimac_8cpp.html#afa626819ccf2a02c16463d27c18dcd5d" title="Mini&#45;MAC용 HMAC&#45;MD5 다이제스트 계산" alt="" coords="103,5,228,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,55,214,36,215,31,277,50"/>
+<area shape="rect" id="Node000003" href="$dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542" title="송신할 메시지에 Mini&#45;MAC 태그 생성 및 내부 상태 갱신" alt="" coords="109,57,222,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,74,222,74,222,68,260,68"/>
+<area shape="rect" id="Node000005" href="$dd/daa/receive__check_2minimac_8cpp.html#a8386b4579a501e2e00bf92cbf83ef2e2" title="수신된 메시지의 Mini&#45;MAC 태그 검증 및 상태 동기화" alt="" coords="104,109,227,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="277,93,215,111,214,106,276,87"/>
+<area shape="rect" id="Node000004" href="$df/d91/send_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다." alt="" coords="5,57,55,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,74,55,74,55,68,94,68"/>
+<area shape="rect" id="Node000006" href="$d1/df3/receive__check_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="수신 루프 함수로, 도착한 CAN 메시지를 확인하고 Mini&#45;MAC 태그를 검증합니다." alt="" coords="5,109,55,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="88,126,55,126,55,120,88,120"/>
+</map>

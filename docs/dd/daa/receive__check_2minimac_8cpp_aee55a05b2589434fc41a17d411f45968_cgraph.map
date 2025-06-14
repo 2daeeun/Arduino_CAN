@@ -1,0 +1,10 @@
+<map id="minimac_init" name="minimac_init">
+<area shape="rect" id="Node000001" title="Mini&#45;MAC 초기화 및 EEPROM 동기화" alt="" coords="5,32,112,60"/>
+<area shape="rect" id="Node000002" href="$de/d55/send_2minimac_8cpp.html#a5c686d7099e608200e066d8fc22cd01f" title="EEPROM에서 Mini&#45;MAC 상태 불러오기" alt="" coords="161,5,250,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,34,146,27,146,33,113,39"/>
+<area shape="rect" id="Node000004" href="$dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="160,57,252,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,52,145,58,144,63,112,58"/>
+<area shape="rect" id="Node000003" href="$de/d55/send_2minimac_8cpp.html#adb41cd19e223aaaf3e833b4abc81e218" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="300,32,382,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="251,25,285,32,284,37,250,31"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="252,60,284,54,285,59,253,65"/>
+</map>

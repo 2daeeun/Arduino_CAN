@@ -1,0 +1,5 @@
+<map id="minimac_verify" name="minimac_verify">
+<area shape="rect" id="Node000001" title="수신 후 Mini&#45;MAC 태그 검증 및 내부 상태 갱신" alt="" coords="103,5,226,33"/>
+<area shape="rect" id="Node000002" href="$d1/df3/receive__check_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="수신 루프 함수로, 도착한 CAN 메시지를 확인하고 Mini&#45;MAC 태그를 검증합니다." alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

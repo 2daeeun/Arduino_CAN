@@ -1,0 +1,18 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title="주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다." alt="" coords="5,32,55,60"/>
+<area shape="rect" id="Node000002" href="$d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9" title="CAN 버스 제어 객체." alt="" coords="134,5,184,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,38,118,25,120,30,56,43"/>
+<area shape="rect" id="Node000003" href="$dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542" title="송신할 메시지에 Mini&#45;MAC 태그 생성 및 내부 상태 갱신" alt="" coords="103,57,215,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="56,48,88,55,87,60,55,53"/>
+<area shape="rect" id="Node000004" href="$dd/daa/receive__check_2minimac_8cpp.html#afa626819ccf2a02c16463d27c18dcd5d" title="Mini&#45;MAC용 HMAC&#45;MD5 다이제스트 계산" alt="" coords="263,32,388,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="215,60,248,55,248,60,216,65"/>
+<area shape="rect" id="Node000005" href="$de/d55/send_2minimac_8cpp.html#aa50b85ed766a36ae953496db5e8d1fc6" title="디버깅용: 바이트 배열을 16진수로 출력" alt="" coords="436,7,566,34"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="189,54,214,42,237,28,262,18,303,11,344,8,421,9,421,14,344,13,303,16,264,23,240,33,216,47,191,59"/>
+<area shape="rect" id="Node000006" href="$de/d55/send_2minimac_8cpp.html#adb41cd19e223aaaf3e833b4abc81e218" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="460,83,542,110"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="216,73,444,90,444,95,215,78"/>
+<area shape="rect" id="Node000007" href="$dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="280,133,372,161"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="193,83,280,124,278,129,190,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="388,34,421,29,421,35,389,39"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="377,58,445,78,444,83,375,63"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="372,131,444,110,445,115,373,136"/>
+</map>

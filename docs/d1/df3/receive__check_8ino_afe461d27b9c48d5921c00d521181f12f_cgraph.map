@@ -1,0 +1,18 @@
+<map id="loop" name="loop">
+<area shape="rect" id="Node000001" title="수신 루프 함수로, 도착한 CAN 메시지를 확인하고 Mini&#45;MAC 태그를 검증합니다." alt="" coords="5,32,55,60"/>
+<area shape="rect" id="Node000002" href="$d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9" title="CAN 버스 제어 객체." alt="" coords="140,5,189,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,38,124,24,125,30,55,44"/>
+<area shape="rect" id="Node000003" href="$dd/daa/receive__check_2minimac_8cpp.html#a8386b4579a501e2e00bf92cbf83ef2e2" title="수신된 메시지의 Mini&#45;MAC 태그 검증 및 상태 동기화" alt="" coords="103,57,226,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,48,88,54,87,59,54,53"/>
+<area shape="rect" id="Node000004" href="$dd/daa/receive__check_2minimac_8cpp.html#afa626819ccf2a02c16463d27c18dcd5d" title="Mini&#45;MAC용 HMAC&#45;MD5 다이제스트 계산" alt="" coords="274,32,399,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,59,258,55,259,60,227,65"/>
+<area shape="rect" id="Node000005" href="$de/d55/send_2minimac_8cpp.html#aa50b85ed766a36ae953496db5e8d1fc6" title="디버깅용: 바이트 배열을 16진수로 출력" alt="" coords="447,7,577,34"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="198,54,225,42,248,28,273,18,314,11,355,8,432,9,432,14,355,13,314,16,275,23,251,33,227,47,200,59"/>
+<area shape="rect" id="Node000006" href="$de/d55/send_2minimac_8cpp.html#adb41cd19e223aaaf3e833b4abc81e218" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="471,83,553,110"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="227,73,456,90,455,95,226,78"/>
+<area shape="rect" id="Node000007" href="$dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="290,133,383,161"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="199,83,290,124,288,129,197,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="399,34,432,29,432,35,400,39"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="388,58,456,78,455,83,386,63"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="383,131,455,110,456,115,384,136"/>
+</map>

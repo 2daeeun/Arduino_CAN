@@ -1,0 +1,5 @@
+<map id="minimac_init" name="minimac_init">
+<area shape="rect" id="Node000001" title="Mini&#45;MAC 프로토콜 초기화" alt="" coords="111,5,217,33"/>
+<area shape="rect" id="Node000002" href="$d1/df3/receive__check_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="수신기 시스템 초기화 함수로, 필요한 설정을 수행합니다." alt="" coords="5,5,63,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,22,63,22,63,16,95,16"/>
+</map>

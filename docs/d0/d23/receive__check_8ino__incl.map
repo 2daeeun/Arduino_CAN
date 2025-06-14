@@ -1,0 +1,16 @@
+<map id="receive_check/receive_check.ino" name="receive_check/receive_check.ino">
+<area shape="rect" id="Node000001" title="CAN 통신 수신 예제 (Mini&#45;MAC 인증 검증 포함)" alt="" coords="188,5,354,50"/>
+<area shape="rect" id="Node000002" href="$dc/de2/receive__check_2minimac_8h.html" title="Mini&#45;MAC 프로토콜 구현용 헤더 파일" alt="" coords="107,98,198,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,53,185,91,182,87,238,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="200,174,288,201"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="270,51,252,158,246,158,265,50"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,98,330,126"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="282,49,295,82,290,84,277,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="353,98,445,126"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="306,48,367,87,364,92,304,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,174,89,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,128,79,167,76,163,132,124"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="170,124,218,162,215,166,167,128"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="113,174,176,201"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="154,127,150,158,145,158,148,126"/>
+</map>

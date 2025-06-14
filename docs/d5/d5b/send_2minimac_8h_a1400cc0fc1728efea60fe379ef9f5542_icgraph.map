@@ -1,0 +1,5 @@
+<map id="minimac_sign" name="minimac_sign">
+<area shape="rect" id="Node000001" title="송신 전 페이로드에 Mini&#45;MAC 태그 생성 및 붙이기" alt="" coords="103,5,215,33"/>
+<area shape="rect" id="Node000002" href="$df/d91/send_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다." alt="" coords="5,5,55,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,22,55,22,55,16,87,16"/>
+</map>

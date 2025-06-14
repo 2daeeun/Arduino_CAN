@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Arduino_CAN: send/send.ino 파일 참조</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../cookie.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Arduino_CAN
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(1); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','검색',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('df/d91/send_8ino.html','../../'); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">매크로</a> &#124;
+<a href="#func-members">함수</a> &#124;
+<a href="#var-members">변수</a>  </div>
+  <div class="headertitle"><div class="title">send.ino 파일 참조</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>CAN 통신 송신 예제 (Mini-MAC 인증 포함)  
+<a href="#details">더 자세히 ...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d5b/send_2minimac_8h_source.html">minimac.h</a>&quot;</code><br />
+<code>#include &lt;EEPROM.h&gt;</code><br />
+<code>#include &lt;SPI.h&gt;</code><br />
+<code>#include &lt;mcp_can.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+send.ino에 대한 include 의존 그래프</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/de0/send_8ino__incl.png" border="0" usemap="#asend_2send_8ino" alt=""/></div>
+<map name="asend_2send_8ino" id="asend_2send_8ino">
+<area shape="rect" title="CAN 통신 송신 예제 (Mini&#45;MAC 인증 포함)" alt="" coords="215,5,327,33"/>
+<area shape="rect" href="../../d5/d5b/send_2minimac_8h.html" title="Mini&#45;MAC 프로토콜 구현용 헤더 파일" alt="" coords="107,81,198,109"/>
+<area shape="poly" title=" " alt="" coords="251,36,187,75,185,71,248,31"/>
+<area shape="rect" title=" " alt="" coords="200,157,288,184"/>
+<area shape="poly" title=" " alt="" coords="271,34,252,142,247,141,266,33"/>
+<area shape="rect" title=" " alt="" coords="276,81,330,109"/>
+<area shape="poly" title=" " alt="" coords="279,32,294,66,289,68,274,35"/>
+<area shape="rect" title=" " alt="" coords="353,81,445,109"/>
+<area shape="poly" title=" " alt="" coords="295,31,365,71,362,75,293,36"/>
+<area shape="rect" title=" " alt="" coords="5,157,89,184"/>
+<area shape="poly" title=" " alt="" coords="135,111,79,150,76,146,132,107"/>
+<area shape="poly" title=" " alt="" coords="170,107,218,145,215,149,167,111"/>
+<area shape="rect" title=" " alt="" coords="113,157,176,184"/>
+<area shape="poly" title=" " alt="" coords="154,110,150,141,145,141,148,109"/>
+</map>
+</div>
+</div>
+<p><a href="../../df/d91/send_8ino_source.html">이 파일의 소스 코드 페이지로 가기</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+매크로</h2></td></tr>
+<tr class="memitem:acde3d8ded0fe19baccb3a3d91ceab3e6" id="r_acde3d8ded0fe19baccb3a3d91ceab3e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde3d8ded0fe19baccb3a3d91ceab3e6">PROTECTED_ID</a>&#160;&#160;&#160;0x123</td></tr>
+<tr class="memdesc:acde3d8ded0fe19baccb3a3d91ceab3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mini-MAC 인증이 적용되는 보호 대상 CAN 메시지 식별자.  <br /></td></tr>
+<tr class="separator:acde3d8ded0fe19baccb3a3d91ceab3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+함수</h2></td></tr>
+<tr class="memitem:a853ad7c0c19d834af7857d43b4c199b9" id="r_a853ad7c0c19d834af7857d43b4c199b9"><td class="memItemLeft" align="right" valign="top">MCP_CAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853ad7c0c19d834af7857d43b4c199b9">CAN</a> (10)</td></tr>
+<tr class="memdesc:a853ad7c0c19d834af7857d43b4c199b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">CAN 버스 제어 객체.  <br /></td></tr>
+<tr class="separator:a853ad7c0c19d834af7857d43b4c199b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d" id="r_a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
+<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">시스템 초기화 함수로, 장치 설정을 수행합니다.  <br /></td></tr>
+<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe461d27b9c48d5921c00d521181f12f" id="r_afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
+<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다.  <br /></td></tr>
+<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+변수</h2></td></tr>
+<tr class="memitem:ad1d0cee27dc11947de05de14cd70cf23" id="r_ad1d0cee27dc11947de05de14cd70cf23"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1d0cee27dc11947de05de14cd70cf23">SECRET_KEY</a> [16]</td></tr>
+<tr class="memdesc:ad1d0cee27dc11947de05de14cd70cf23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mini-MAC 프로토콜에 사용되는 16바이트 비밀 키.  <br /></td></tr>
+<tr class="separator:ad1d0cee27dc11947de05de14cd70cf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
+<div class="textblock"><p>CAN 통신 송신 예제 (Mini-MAC 인증 포함) </p>
+<p>이 파일은 Mini-MAC 기반의 메시지 인증을 적용하여 CAN 버스로 데이터를 송신하는 예제 코드입니다. 주기적으로 페이로드 데이터를 준비하고 Mini-MAC 태그를 생성한 뒤, 이를 포함한 CAN 메시지를 전송합니다. </p>
+
+<p class="definition"><a class="el" href="../../df/d91/send_8ino_source.html">send.ino</a> 파일에서 정의되었습니다.</p>
+</div><h2 class="groupheader">매크로 문서화</h2>
+<a id="acde3d8ded0fe19baccb3a3d91ceab3e6" name="acde3d8ded0fe19baccb3a3d91ceab3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde3d8ded0fe19baccb3a3d91ceab3e6">&#9670;&#160;</a></span>PROTECTED_ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PROTECTED_ID&#160;&#160;&#160;0x123</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mini-MAC 인증이 적용되는 보호 대상 CAN 메시지 식별자. </p>
+<p>이 CAN ID를 사용하는 메시지에 Mini-MAC 태그를 추가하여 송신 및 검증합니다. </p>
+
+<p class="definition"><a class="el" href="../../df/d91/send_8ino_source.html">send.ino</a> 파일의 <a class="el" href="../../df/d91/send_8ino_source.html#l00020">20</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<h2 class="groupheader">함수 문서화</h2>
+<a id="a853ad7c0c19d834af7857d43b4c199b9" name="a853ad7c0c19d834af7857d43b4c199b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a853ad7c0c19d834af7857d43b4c199b9">&#9670;&#160;</a></span>CAN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MCP_CAN CAN </td>
+          <td>(</td>
+          <td class="paramtype">10</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>CAN 버스 제어 객체. </p>
+<p>MCP2515 CAN 트랜시버를 제어하기 위한 MCP_CAN 클래스 인스턴스이며, 칩 선택(CS)으로 10번 핀을 사용합니다. </p>
+
+</div>
+</div>
+<a id="afe461d27b9c48d5921c00d521181f12f" name="afe461d27b9c48d5921c00d521181f12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe461d27b9c48d5921c00d521181f12f">&#9670;&#160;</a></span>loop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다. </p>
+<p>예시 페이로드 데이터를 버퍼에 설정한 후, minimac_sign 함수를 호출하여 해당 페이로드에 대한 Mini-MAC 인증 태그를 생성하고 부착합니다. 준비된 메시지를 PROTECTED_ID 식별자로 CAN 버스를 통해 송신합니다. 송신 결과를 시리얼 모니터에 "[INFO] Message sent" 또는 "[ERROR] Send failed" 형식으로 출력하고, 1초간 대기한 후 다음 메시지를 준비합니다. </p>
+
+<p class="definition"><a class="el" href="../../df/d91/send_8ino_source.html">send.ino</a> 파일의 <a class="el" href="../../df/d91/send_8ino_source.html#l00084">84</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>            {</div>
+<div class="line"><span class="lineno">   85</span>  <span class="comment">// 예시 페이로드: 0xDE 0xAD 0xBE 0xEF</span></div>
+<div class="line"><span class="lineno">   86</span>  uint8_t buf[<a class="code hl_define" href="../../dc/de2/receive__check_2minimac_8h.html#aabb80f3e18eefc592fe53e183d8d1897">MINIMAC_MAX_DATA</a> + <a class="code hl_define" href="../../dc/de2/receive__check_2minimac_8h.html#a964f0a823ecc9b1e36578a237aa7590a">MINIMAC_TAG_LEN</a>];</div>
+<div class="line"><span class="lineno">   87</span>  uint8_t payloadLen = 4;</div>
+<div class="line"><span class="lineno">   88</span>  buf[0] = 0xDE;</div>
+<div class="line"><span class="lineno">   89</span>  buf[1] = 0xAD;</div>
+<div class="line"><span class="lineno">   90</span>  buf[2] = 0xBE;</div>
+<div class="line"><span class="lineno">   91</span>  buf[3] = 0xEF;</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>  <span class="comment">// Mini-MAC 태그 생성</span></div>
+<div class="line"><span class="lineno">   94</span>  uint8_t totalLen = <a class="code hl_function" href="../../dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542">minimac_sign</a>(buf, payloadLen);</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>  <span class="comment">// CAN 전송</span></div>
+<div class="line"><span class="lineno">   97</span>  <span class="keywordtype">byte</span> result = <a class="code hl_function" href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9">CAN</a>.sendMsgBuf(<a class="code hl_define" href="../../d1/df3/receive__check_8ino.html#acde3d8ded0fe19baccb3a3d91ceab3e6">PROTECTED_ID</a>, 0, totalLen, buf);</div>
+<div class="line"><span class="lineno">   98</span>  <span class="keywordflow">if</span> (result == CAN_OK) {</div>
+<div class="line"><span class="lineno">   99</span>    Serial.println(<span class="stringliteral">&quot;[INFO] Message sent&quot;</span>);</div>
+<div class="line"><span class="lineno">  100</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  101</span>    Serial.println(<span class="stringliteral">&quot;[ERROR] Send failed&quot;</span>);</div>
+<div class="line"><span class="lineno">  102</span>  }</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>  delay(1000);</div>
+<div class="line"><span class="lineno">  105</span>}</div>
+<div class="ttc" id="areceive__check_2minimac_8cpp_html_a1400cc0fc1728efea60fe379ef9f5542"><div class="ttname"><a href="../../dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542">minimac_sign</a></div><div class="ttdeci">uint8_t minimac_sign(uint8_t *data, uint8_t payload_len)</div><div class="ttdoc">송신할 메시지에 Mini-MAC 태그 생성 및 내부 상태 갱신</div><div class="ttdef"><b>Definition</b> <a href="../../dd/daa/receive__check_2minimac_8cpp_source.html#l00282">minimac.cpp:282</a></div></div>
+<div class="ttc" id="areceive__check_2minimac_8h_html_a964f0a823ecc9b1e36578a237aa7590a"><div class="ttname"><a href="../../dc/de2/receive__check_2minimac_8h.html#a964f0a823ecc9b1e36578a237aa7590a">MINIMAC_TAG_LEN</a></div><div class="ttdeci">#define MINIMAC_TAG_LEN</div><div class="ttdoc">Mini-MAC 다이제스트에서 사용할 태그 길이 (4바이트, 32비트)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/de2/receive__check_2minimac_8h_source.html#l00025">minimac.h:25</a></div></div>
+<div class="ttc" id="areceive__check_2minimac_8h_html_aabb80f3e18eefc592fe53e183d8d1897"><div class="ttname"><a href="../../dc/de2/receive__check_2minimac_8h.html#aabb80f3e18eefc592fe53e183d8d1897">MINIMAC_MAX_DATA</a></div><div class="ttdeci">#define MINIMAC_MAX_DATA</div><div class="ttdoc">CAN 데이터 필드 최대 길이 (8바이트)</div><div class="ttdef"><b>Definition</b> <a href="../../dc/de2/receive__check_2minimac_8h_source.html#l00035">minimac.h:35</a></div></div>
+<div class="ttc" id="areceive__check_8ino_html_a853ad7c0c19d834af7857d43b4c199b9"><div class="ttname"><a href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9">CAN</a></div><div class="ttdeci">MCP_CAN CAN(10)</div><div class="ttdoc">CAN 버스 제어 객체.</div></div>
+<div class="ttc" id="areceive__check_8ino_html_acde3d8ded0fe19baccb3a3d91ceab3e6"><div class="ttname"><a href="../../d1/df3/receive__check_8ino.html#acde3d8ded0fe19baccb3a3d91ceab3e6">PROTECTED_ID</a></div><div class="ttdeci">#define PROTECTED_ID</div><div class="ttdoc">Mini-MAC 인증이 적용되는 보호 대상 CAN 메시지 식별자.</div><div class="ttdef"><b>Definition</b> <a href="../../d1/df3/receive__check_8ino_source.html#l00020">receive_check.ino:20</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d91/send_8ino_afe461d27b9c48d5921c00d521181f12f_cgraph.png" border="0" usemap="#adf/d91/send_8ino_afe461d27b9c48d5921c00d521181f12f_cgraph" alt=""/></div>
+<map name="adf/d91/send_8ino_afe461d27b9c48d5921c00d521181f12f_cgraph" id="adf/d91/send_8ino_afe461d27b9c48d5921c00d521181f12f_cgraph">
+<area shape="rect" title="주기적으로 메시지를 생성하여 전송하는 메인 루프 함수입니다." alt="" coords="5,32,55,60"/>
+<area shape="rect" href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9" title="CAN 버스 제어 객체." alt="" coords="134,5,184,33"/>
+<area shape="poly" title=" " alt="" coords="55,38,118,25,120,30,56,43"/>
+<area shape="rect" href="../../dd/daa/receive__check_2minimac_8cpp.html#a1400cc0fc1728efea60fe379ef9f5542" title="송신할 메시지에 Mini&#45;MAC 태그 생성 및 내부 상태 갱신" alt="" coords="103,57,215,85"/>
+<area shape="poly" title=" " alt="" coords="56,48,88,55,87,60,55,53"/>
+<area shape="rect" href="../../dd/daa/receive__check_2minimac_8cpp.html#afa626819ccf2a02c16463d27c18dcd5d" title="Mini&#45;MAC용 HMAC&#45;MD5 다이제스트 계산" alt="" coords="263,32,388,60"/>
+<area shape="poly" title=" " alt="" coords="215,60,248,55,248,60,216,65"/>
+<area shape="rect" href="../../de/d55/send_2minimac_8cpp.html#aa50b85ed766a36ae953496db5e8d1fc6" title="디버깅용: 바이트 배열을 16진수로 출력" alt="" coords="436,7,566,34"/>
+<area shape="poly" title=" " alt="" coords="189,54,214,42,237,28,262,18,303,11,344,8,421,9,421,14,344,13,303,16,264,23,240,33,216,47,191,59"/>
+<area shape="rect" href="../../de/d55/send_2minimac_8cpp.html#adb41cd19e223aaaf3e833b4abc81e218" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="460,83,542,110"/>
+<area shape="poly" title=" " alt="" coords="216,73,444,90,444,95,215,78"/>
+<area shape="rect" href="../../dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="280,133,372,161"/>
+<area shape="poly" title=" " alt="" coords="193,83,280,124,278,129,190,88"/>
+<area shape="poly" title=" " alt="" coords="388,34,421,29,421,35,389,39"/>
+<area shape="poly" title=" " alt="" coords="377,58,445,78,444,83,375,63"/>
+<area shape="poly" title=" " alt="" coords="372,131,444,110,445,115,373,136"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4fc01d736fe50cf5b977f755b675f11d" name="a4fc01d736fe50cf5b977f755b675f11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc01d736fe50cf5b977f755b675f11d">&#9670;&#160;</a></span>setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>시스템 초기화 함수로, 장치 설정을 수행합니다. </p>
+<p>시리얼 통신을 115200 baud로 시작하고 Serial 포트가 열릴 때까지 대기합니다. EEPROM 메모리를 전체 0xFF 값으로 초기화하여 과거 저장된 데이터를 지웁니다. CAN 컨트롤러를 초기화(all ID 수신, 500kbps, 16MHz 클럭)한 후 정상 동작 모드(MCP_NORMAL)로 설정합니다. Mini-MAC 프로토콜을 PROTECTED_ID와 SECRET_KEY로 초기화하여 메시지 인증 기능을 준비합니다 (fresh 상태 시작). 모든 초기화가 완료되면 시리얼 모니터에 "[INFO] Sender Initialized" 메시지를 출력합니다. </p>
+
+<p class="definition"><a class="el" href="../../df/d91/send_8ino_source.html">send.ino</a> 파일의 <a class="el" href="../../df/d91/send_8ino_source.html#l00051">51</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>             {</div>
+<div class="line"><span class="lineno">   52</span>  Serial.begin(115200);</div>
+<div class="line"><span class="lineno">   53</span>  <span class="keywordflow">while</span> (!Serial)</div>
+<div class="line"><span class="lineno">   54</span>    ;</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>  <span class="comment">// EEPROM 전체 초기화</span></div>
+<div class="line"><span class="lineno">   57</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; EEPROM.length(); i++) {</div>
+<div class="line"><span class="lineno">   58</span>    EEPROM.write(i, 0xFF);</div>
+<div class="line"><span class="lineno">   59</span>  }</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>  <span class="comment">// CAN 초기화 (all IDs, 500kbps, 16MHz)</span></div>
+<div class="line"><span class="lineno">   62</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9">CAN</a>.begin(MCP_ANY, CAN_500KBPS, MCP_16MHZ) != CAN_OK) {</div>
+<div class="line"><span class="lineno">   63</span>    Serial.println(<span class="stringliteral">&quot;[ERROR] CAN Init Failed!&quot;</span>);</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><span class="lineno">   65</span>      ;</div>
+<div class="line"><span class="lineno">   66</span>  }</div>
+<div class="line"><span class="lineno">   67</span>  <a class="code hl_function" href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9">CAN</a>.setMode(MCP_NORMAL);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>  <span class="comment">// Mini-MAC 초기화 (fresh 상태로 시작)</span></div>
+<div class="line"><span class="lineno">   70</span>  <a class="code hl_function" href="../../dd/daa/receive__check_2minimac_8cpp.html#aee55a05b2589434fc41a17d411f45968">minimac_init</a>(<a class="code hl_define" href="../../d1/df3/receive__check_8ino.html#acde3d8ded0fe19baccb3a3d91ceab3e6">PROTECTED_ID</a>, <a class="code hl_variable" href="../../d1/df3/receive__check_8ino.html#ad1d0cee27dc11947de05de14cd70cf23">SECRET_KEY</a>);</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>  Serial.println(<span class="stringliteral">&quot;[INFO] Sender Initialized&quot;</span>);</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="areceive__check_2minimac_8cpp_html_aee55a05b2589434fc41a17d411f45968"><div class="ttname"><a href="../../dd/daa/receive__check_2minimac_8cpp.html#aee55a05b2589434fc41a17d411f45968">minimac_init</a></div><div class="ttdeci">void minimac_init(uint16_t can_id, const uint8_t *key)</div><div class="ttdoc">Mini-MAC 초기화 및 EEPROM 동기화</div><div class="ttdef"><b>Definition</b> <a href="../../dd/daa/receive__check_2minimac_8cpp_source.html#l00241">minimac.cpp:241</a></div></div>
+<div class="ttc" id="areceive__check_8ino_html_ad1d0cee27dc11947de05de14cd70cf23"><div class="ttname"><a href="../../d1/df3/receive__check_8ino.html#ad1d0cee27dc11947de05de14cd70cf23">SECRET_KEY</a></div><div class="ttdeci">const uint8_t SECRET_KEY[16]</div><div class="ttdoc">Mini-MAC 프로토콜에 사용되는 16바이트 비밀 키.</div><div class="ttdef"><b>Definition</b> <a href="../../d1/df3/receive__check_8ino_source.html#l00027">receive_check.ino:27</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d91/send_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph.png" border="0" usemap="#adf/d91/send_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph" alt=""/></div>
+<map name="adf/d91/send_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph" id="adf/d91/send_8ino_a4fc01d736fe50cf5b977f755b675f11d_cgraph">
+<area shape="rect" title="시스템 초기화 함수로, 장치 설정을 수행합니다." alt="" coords="5,32,63,60"/>
+<area shape="rect" href="../../d1/df3/receive__check_8ino.html#a853ad7c0c19d834af7857d43b4c199b9" title="CAN 버스 제어 객체." alt="" coords="139,5,188,33"/>
+<area shape="poly" title=" " alt="" coords="62,37,123,25,125,30,63,43"/>
+<area shape="rect" href="../../dd/daa/receive__check_2minimac_8cpp.html#aee55a05b2589434fc41a17d411f45968" title="Mini&#45;MAC 초기화 및 EEPROM 동기화" alt="" coords="111,57,217,85"/>
+<area shape="poly" title=" " alt="" coords="63,49,96,55,95,60,62,54"/>
+<area shape="rect" href="../../de/d55/send_2minimac_8cpp.html#a5c686d7099e608200e066d8fc22cd01f" title="EEPROM에서 Mini&#45;MAC 상태 불러오기" alt="" coords="266,31,356,58"/>
+<area shape="poly" title=" " alt="" coords="217,59,251,53,252,58,218,64"/>
+<area shape="rect" href="../../dd/daa/receive__check_2minimac_8cpp.html#a26924782bb56ee82e0670eb981948656" title="Mini&#45;MAC 상태를 EEPROM에 저장" alt="" coords="265,83,357,110"/>
+<area shape="poly" title=" " alt="" coords="218,78,250,83,249,89,217,83"/>
+<area shape="rect" href="../../de/d55/send_2minimac_8cpp.html#adb41cd19e223aaaf3e833b4abc81e218" title="디버깅용: 64비트 부호 없는 정수를 10진수 문자열로 변환해 출력" alt="" coords="405,57,488,85"/>
+<area shape="poly" title=" " alt="" coords="357,51,391,57,390,63,356,56"/>
+<area shape="poly" title=" " alt="" coords="357,85,390,79,391,84,358,90"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">변수 문서화</h2>
+<a id="ad1d0cee27dc11947de05de14cd70cf23" name="ad1d0cee27dc11947de05de14cd70cf23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d0cee27dc11947de05de14cd70cf23">&#9670;&#160;</a></span>SECRET_KEY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t SECRET_KEY[16]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>초기값:</b><div class="fragment"><div class="line">= {0x1A, 0x2B, 0x3C, 0x4D, 0x5E, 0x6F,</div>
+<div class="line">                                             0x70, 0x81, 0x92, 0xA3, 0xB4, 0xC5,</div>
+<div class="line">                                             0xD6, 0xE7, 0xF8, 0x09}</div>
+</div><!-- fragment -->
+<p>Mini-MAC 프로토콜에 사용되는 16바이트 비밀 키. </p>
+<p>인증 태그 계산에 사용되는 키로, 송신자와 수신자가 동일한 값을 공유해야 합니다. </p>
+
+<p class="definition"><a class="el" href="../../df/d91/send_8ino_source.html">send.ino</a> 파일의 <a class="el" href="../../df/d91/send_8ino_source.html#l00028">28</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><span class="lineno">   28</span>                                            {0x1A, 0x2B, 0x3C, 0x4D, 0x5E, 0x6F,</div>
+<div class="line"><span class="lineno">   29</span>                                             0x70, 0x81, 0x92, 0xA3, 0xB4, 0xC5,</div>
+<div class="line"><span class="lineno">   30</span>                                             0xD6, 0xE7, 0xF8, 0x09};</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_e3f18b510480d4e94b05ea05ec318313.html">send</a></li><li class="navelem"><a class="el" href="../../df/d91/send_8ino.html">send.ino</a></li>
+    <li class="footer">다음에 의해 생성됨 :  <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>
